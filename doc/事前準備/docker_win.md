@@ -46,5 +46,5 @@ Dockerインストール完了後、設定からResourcesを選択し、この[�
 
 
 
-# ↓はDockerの環境構築で参考になる動画です。<br>
+# Dockerの環境構築で参考になる動画<br>
 [【Docker超入門 #2】環境構築 for Windows](https://www.youtube.com/watch?v=LSQKHW01ACo)
