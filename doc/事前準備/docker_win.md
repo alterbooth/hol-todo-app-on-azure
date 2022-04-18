@@ -34,7 +34,8 @@ wsl --set-default-version 2
 ```
 ## 手順4
 [Ubuntu 20.04.4 LTS](https://www.microsoft.com/store/productId/9MTTCL66CPXJ)のインストール<br>
-インストール終わり次第、Ubuntuを起動してもらい、usernameとpasswordを任意のものに設定してください。usernameとpasswordは覚えておいてください。<br>
+インストール終わり次第、Ubuntuを起動してもらい、usernameとpasswordを任意のものに設定してください。<br>
+usernameとpasswordは覚えておいてください。<br>
 ＊passwordは画面上に表示されませんが、入力できています。<br>
 Ubuntuの起動方法がわからない方はWindows Terminalを開き、「新しいタブを開く」からUbuntuを起動出来ます。
 ## 手順5
