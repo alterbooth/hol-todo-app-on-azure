@@ -2,9 +2,6 @@
 # Docker環境構築 Windows用
 
 
-# 星野へのメモ
-# vscodeは別で説明するから抜いていいよ。動画のVSCodeの説明みて付け加えてた方がいいことがあったら、VSCodeの説明も変更してくれ。
-
 URLからご自身の環境に適したものをダウンロードしていただき、インストールを行ってください。
 ## 手順1
 [Windows Terminalのインストール](https://www.microsoft.com/ja-jp/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab)<br>
@@ -48,5 +45,5 @@ Dockerインストール完了後、設定からResourcesを選択し、この[�
 
 
 
-
+# ↓はDockerの環境構築で参考になる動画です。<br>
 [【Docker超入門 #2】環境構築 for Windows](https://www.youtube.com/watch?v=LSQKHW01ACo)
