@@ -41,7 +41,8 @@ Ubuntuの起動方法がわからない方はWindows Terminalを開き、「新�
 ## 手順5
 [Dockerのインストール](https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe)
 ## 手順6
-Dockerインストール完了後、設定からResourcesを選択し、この[画像](https://i.gyazo.com/09deff5c564559eb2e075717f6b57848.png)と同じになっているか確かめてください。
+Dockerインストール完了後、設定からResourcesを選択し、その後WSL INTEGRATIONを選択すると下記の画像と同じ画面になるため、設定が同じになっているか確かめてください。<br>
+![dockersetting.png](../img/dockersetting.png)
 
 
 
