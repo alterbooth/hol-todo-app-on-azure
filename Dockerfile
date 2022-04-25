@@ -11,13 +11,13 @@ RUN mkdir /code
 WORKDIR /code
 
 # カレントディレクトリにあるrequirements.txtをコンテナ上の指定のディレクトリにコピーする
-# pipでrequirements.txtに指定されているパッケージを追加する
-# カレントディレクトリにある資産をコンテナ上の指定のディレクトリにコピーする
 COPY requirements.txt /code/
+
+# pipでrequirements.txtに指定されているパッケージを追加する
 RUN pip install --requirement /code/requirements.txt
+
+# カレントディレクトリにある資産をコンテナ上の指定のディレクトリにコピーする
 COPY . /code/
-
-
 
 # マイグレート
 RUN python manage.py migrate
