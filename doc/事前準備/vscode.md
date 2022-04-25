@@ -1,4 +1,3 @@
-[戻る](事前準備.md)
 # Visual Studio Code (VSCode) のセットアップ
 
 ## インストール
