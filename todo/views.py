@@ -2,11 +2,17 @@ from django.views import generic
 from django.urls import reverse_lazy
 from .models import Todo
 from .forms import TodoForm
+import logging
+
 
 # ToDoの一覧表示機能
 class TodoListView(generic.ListView):
+    # logger = logging.getLogger('development')
+    # logger.info('Hello World!')
     model = Todo
     paginate_by = 5
+
+
 
 # ToDoの詳細表示機能
 class TodoDetailView(generic.DetailView):
