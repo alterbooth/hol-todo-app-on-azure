@@ -17,8 +17,8 @@ services:
       - db
     environment:
       - SECRET_KEY=@)t5&vxc)n6ggw3*%e5k9!q#c*oe*n!7%28to_5w0y50)-sw9
-      # - DB_USER=postgres
-      # - DB_NAME=postgres
-      # - DB_PASSWORD=postgres
-      # - DB_HOST=db
-      # - DB_PORT=5432
+      - DB_USER=postgres
+      - DB_NAME=postgres
+      - DB_PASSWORD=postgres
+      - DB_HOST=db
+      - DB_PORT=5432
