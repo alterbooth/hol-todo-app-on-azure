@@ -15,9 +15,13 @@ git push
 *  Actions へ移動。上手くいけば、CI/CDが構築できてワークフローを確認できます。
 * 緑のチェックが表示されたら成功です。
 
+![deploy-actions](img/deploy-actions.png)
+
 ## 表示の変更 
 表示を「Hello World」から「Hello Azure」に変更してGithubにプッシュしてみましょう。<br><br>
 プッシュするともう一度、Github Actions が実行されます。<br>上手くデプロイできていれば、表示が変更されているはずです。
+
+![hello-azure](img/hello-azure.png)
 
 
 ## 次へ
