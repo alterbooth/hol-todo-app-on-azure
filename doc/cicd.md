@@ -28,4 +28,4 @@ git push
 次は、ToDoアプリの作成です。<br>
 [ToDoアプリの資料](アプリ作成.md)
 
-[READMEに戻る](../README.md)
+[READMEに戻る](https://github.com/alterbooth/hol-todo-app-on-azure)
