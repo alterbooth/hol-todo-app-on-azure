@@ -1,4 +1,4 @@
-# hol-todo-app-on-azure.git
+# hol-todo-app-on-azure
 [事前準備](doc/事前準備/事前準備.md)
 
 ## イベント資料
