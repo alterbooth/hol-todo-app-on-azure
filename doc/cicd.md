@@ -16,9 +16,8 @@ git push
 * 緑のチェックが表示されたら成功です。
 
 ## 表示の変更 
-表示を「Hello World」から「Hello Azure」に変更してGithubにプッシュしてみましょう。<br>
-プッシュするともう一度、Github Actions が実行されます。<br>
-上手くデプロイできていれば、表示が変更されているはずです。
+表示を「Hello World」から「Hello Azure」に変更してGithubにプッシュしてみましょう。<br><br>
+プッシュするともう一度、Github Actions が実行されます。<br>上手くデプロイできていれば、表示が変更されているはずです。
 
 
 ## 次へ
