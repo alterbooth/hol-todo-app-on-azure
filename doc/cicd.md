@@ -1,5 +1,12 @@
 # CI/CD
-まずは、 **最新のコードがGithubにプッシュ** できているか確認しましょう。
+まずは、 **最新のコードがGithubにプッシュ** できているか確認しましょう。<br>
+できていない場合は以下のコマンドを実行しましょう。
+
+```
+git add .
+git commit -m "deploy done"
+git push
+```
 
 ## デプロイセンターの設定
 * App Service/デプロイセンター で 「Github Actions」 を選択。
