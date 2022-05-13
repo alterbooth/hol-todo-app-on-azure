@@ -12,7 +12,6 @@
 
 [ステップ4：ToDoアプリ作成](https://github.com/alterbooth/hol-todo-app-on-azure/blob/document/doc/%E3%82%A2%E3%83%97%E3%83%AA%E4%BD%9C%E6%88%90.md)
 
-[コマンド一覧](https://github.com/alterbooth/hol-todo-app-on-azure/blob/document/doc/command.md)
 
 ## 関連知識
 * [Azureとは](https://azure.microsoft.com/ja-jp/overview/what-is-azure/)
