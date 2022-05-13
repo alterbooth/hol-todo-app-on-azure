@@ -13,7 +13,7 @@
 
 [ステップ5：全部終わったら](doc/end.md)
 
-[コマンド一覧](command.md)
+[コマンド一覧](doc/command.md)
 
 ## 関連知識
 [Azureとは]()
