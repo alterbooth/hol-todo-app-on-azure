@@ -16,4 +16,7 @@
 [コマンド一覧](doc/command.md)
 
 ## 関連知識
-[Azureとは]()
+[Azureとは](https://azure.microsoft.com/ja-jp/overview/what-is-azure/)
+[Azureサービスの一覧](https://azure.microsoft.com/ja-jp/services/)
+[Compose と Django](https://docs.docker.jp/compose/django.html)
+[Github Actions](https://docs.github.com/ja/actions)
