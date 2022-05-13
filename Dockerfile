@@ -6,5 +6,5 @@ WORKDIR /code
 COPY requirements.txt /code/
 RUN pip install --requirement /code/requirements.txt
 COPY . /code/
-# RUN chmod 744 ./startup.sh
-# ENTRYPOINT ["./startup.sh"]
+RUN chmod 744 ./startup.sh
+ENTRYPOINT ["./startup.sh"]
