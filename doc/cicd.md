@@ -1,5 +1,12 @@
 # CI/CD
-まずは、 **最新のコードがGithubにプッシュ** できているか確認しましょう。
+まずは、 **最新のコードがGithubにプッシュ** できているか確認しましょう。<br>
+できていない場合は以下のコマンドを実行しましょう。
+
+```
+git add .
+git commit -m "deploy done"
+git push
+```
 
 ## デプロイセンターの設定
 * App Service/デプロイセンター で 「Github Actions」 を選択。
@@ -9,22 +16,10 @@
 * 緑のチェックが表示されたら成功です。
 
 ## 表示の変更 
-表示を「Hello World」から他のものに変更してGithubにプッシュしてみましょう。
-
-プッシュするともう一度、Github Actions が実行されます。
-
-上手くデプロイできていれば、表示が変更されているはずです。
+表示を「Hello World」から「Hello Azure」に変更してGithubにプッシュしてみましょう。<br><br>
+プッシュするともう一度、Github Actions が実行されます。<br>上手くデプロイできていれば、表示が変更されているはずです。
 
 
 ## 次へ
-次は、ToDoアプリの作成です。
-
-ToDoアプリのブランチを作成移動し、次の資料に進みましょう。
-```
-git add .
-git commit -m "ci/cd done"
-git push
-git checkout -b ToDoアプリ
-```
-
-next: [ToDoアプリの資料](アプリ作成.md)
+次は、ToDoアプリの作成です。<br>
+[ToDoアプリの資料](アプリ作成.md)
