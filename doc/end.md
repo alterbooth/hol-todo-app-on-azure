@@ -2,6 +2,9 @@
 * Azure Monitor
   * Webapp→監視→診断設定の追加
   * わざとバグを書いてみて確認する
+* データベースのSSL化をしてみる
+  * [Djangoのコード(mysqlの場合)](https://docs.microsoft.com/ja-jp/azure/mysql/howto-configure-ssl#django-pymysql)
+  * [Azure Database for PostgreSQL　公式ドキュメント](https://docs.microsoft.com/ja-jp/azure/postgresql/concepts-ssl-connection-security)
 * VENTとS.E.でセキュリティ対策をする。
 * CSSを書いて見た目をよくしてみる。
 * Djangoのデバッグモードを変更する。(DEBUG = TrueをFallseにしてみる)
