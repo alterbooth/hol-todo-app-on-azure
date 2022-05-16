@@ -9,5 +9,5 @@
 * CSSを書いて見た目をよくしてみる。
 * Djangoのデバッグモードを変更する。(DEBUG = TrueをFallseにしてみる)
 * プランを変更してみる。
-* Application Insights
+* Application Insightsを使ってみる
 * etc.
