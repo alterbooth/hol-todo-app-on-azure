@@ -159,5 +159,3 @@ Procfile
 dbreset.sh
 calendarSite/migrations/0001_initial.py
 chat/migrations/0001_initial.py
-
-docker-compose.yml
