@@ -6,7 +6,7 @@ services:
     ports:
       - 5432:5432
     environment:
-      POSTGRES_PASSWORD: postgres
+      POSTGRES_PASSWORD: "${POSTGRES_PASSWORD}"
   web:
     build: .
     volumes:
@@ -16,9 +16,9 @@ services:
     depends_on:
       - db
     environment:
-      - SECRET_KEY=
-      - DB_USER=postgres
-      - DB_NAME=postgres
-      - DB_PASSWORD=postgres
-      - DB_HOST=db
-      - DB_PORT=5432
+      SECRET_KEY: "${SECRET_KEY}"
+      DB_USER: "${DB_USER}"
+      DB_NAME: "${DB_NAME}"
+      DB_PASSWORD: "${DB_PASSWORD}"
+      DB_HOST: "${DB_HOST}"
+      DB_PORT: "${DB_PORT}"
